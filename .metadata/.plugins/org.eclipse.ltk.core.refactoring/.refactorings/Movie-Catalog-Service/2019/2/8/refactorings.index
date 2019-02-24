@@ -1,0 +1,5 @@
+1550604774610	Rename package 'com.anand.springboot.movieInfo'
+1550604802344	Rename type 'MovieInfoService'
+1550604919963	Rename type 'Movie'
+1550605279170	Copy package
+1550858148811	Encapsulate field 'movieId'

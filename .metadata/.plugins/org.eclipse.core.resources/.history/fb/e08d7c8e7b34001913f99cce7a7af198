@@ -1,0 +1,16 @@
+package com.anand.springboot.movieInfo;
+
+import java.util.Arrays;
+import java.util.List;
+
+import org.springframework.web.bind.annotation.RestController;
+
+@RestController
+public class MovieInfoService {
+	
+	public List<MovieCatalog> getCatalog(String userId)
+	{
+		return Arrays.asList(new MovieCatalog("Transformers", "Sci-fri", 4));
+	}
+
+}

@@ -1,0 +1,3 @@
+spring.application.name=${project.version}
+server.port=8082
+
